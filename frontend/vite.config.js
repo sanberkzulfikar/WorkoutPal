@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   server: {
     proxy: {
-      "/api": "https://workoutpal-vnq3.onrender.com/api/workouts/",
+      "/api": "https://workoutpal-vnq3.onrender.com/api/workouts",
     },
   },
   plugins: [react()],
